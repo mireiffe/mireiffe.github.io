@@ -1,6 +1,6 @@
 ---
 date: 2021-03-02
-title: "MATLAB 연습 | MATLAB Tutorial"
+title: "MATLAB 연습 / MATLAB Tutorial"
 categories: Intro
 tags: Intro, tutorial
 # 목차
