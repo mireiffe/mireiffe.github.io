@@ -12,7 +12,7 @@ toc_sticky: true
 
 ## 연습문제 || Exercises
 
-범위 / Coverage : [2.1 - 3.1]({{site.baseurl}}/week1/section2)
+범위 / Coverage : [2.1 - 3.1]({{site.baseurl}}/week1/ex1)
 
 ## 과제 0 || Assignment 0
 
