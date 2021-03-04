@@ -5,7 +5,8 @@ categories: Week1
 tags: week1 readme
 # 목차
 toc: true  
-toc_sticky: true 
+toc_sticky: true
+toc_label: "Table of Contents" 
 ---
 
 # 1주차 || Week 1

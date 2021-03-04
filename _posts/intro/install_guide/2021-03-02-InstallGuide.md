@@ -6,6 +6,7 @@ tags: intro install_guide
 # 목차
 toc: true  
 toc_sticky: true 
+toc_label: "Table of Contents" 
 ---
 
 # 매트랩 설치 가이드
