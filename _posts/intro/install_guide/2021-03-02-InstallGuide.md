@@ -1,8 +1,8 @@
 ---
 date: 2021-03-02
-title: "설치 가이드 (한글)"
+title: 설치 가이드 (한글)
 categories: Intro
-tags: Intro, Installation guide
+tags: intro, installation guide
 # 목차
 toc: true  
 toc_sticky: true 
@@ -11,13 +11,6 @@ toc_sticky: true
 # 매트랩 설치 가이드
 ## 머릿말
 이 문서는 KAIST의 학생들에게 무료로 제공되는 Total Academic Headcount (TAH)을 이용해 MATLAB을 설치 및 활성화하는 방법을 설명하고 있습니다.
-
-## 목차
-- [머릿말](#머릿말)
-- [Mathworks 계정 생성](#mathworks-계정-생성)
-- [KAIST TAH 라이센스 등록](#kaist-tah-라이센스-등록)
-- [다운로드](#다운로드)
-- [설치](#설치)
 
 ## Mathworks 계정 생성
 1. [Mathworks 홈페이지](https://www.mathworks.com)를 방문하여 계정 생성 페이지로 이동하세요: [로그인] - [[지금 만드세요!](https://kr.mathworks.com/mwaccount/register)].
