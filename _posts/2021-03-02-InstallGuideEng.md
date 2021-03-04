@@ -14,11 +14,11 @@ toc_sticky: true
 This document describes how to install MATLAB using 'Total Academic Headcount (TAH)'. The TAH is a free academic license for KAIST students.
 
 ## Contents
-- [Introduction](#Introduction)
+- [Introduction](#introduction)
 - [Create a Mathworks Account](#create-a-mathworks-account)
-- [Register the KAIST TAH license](#Register-the-KAIST-TAH-license)
-- [Download](#Download)
-- [Installation](#Installation)
+- [Register the KAIST TAH license](#register-the-kaist-tah-license)
+- [Download](#download)
+- [Installation](#installation)
 
 ## Create a Mathworks Account
 1. Visit the [Mathworks website](https://www.mathworks.com) and go to the sign up page: [Sign in] - [[Create One!](https://kr.mathworks.com/mwaccount/register)].
