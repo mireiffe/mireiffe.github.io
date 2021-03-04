@@ -14,8 +14,8 @@ toc_sticky: true
 
 ## 목차
 - [머릿말](#머릿말)
-- [Mathworks 계정 생성](#Mathworks-계정-생성)
-- [KAIST TAH 라이센스 등록](#KAIST-TAH-라이센스-등록)
+- [Mathworks 계정 생성](#mathworks-계정-생성)
+- [KAIST TAH 라이센스 등록](#kaist-tah-라이센스-등록)
 - [다운로드](#다운로드)
 - [설치](#설치)
 
