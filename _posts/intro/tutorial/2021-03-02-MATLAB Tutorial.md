@@ -15,8 +15,9 @@ toc_sticky: true
 MATLAB (matrix laboratory) is a fourth-generation high-level programming language and an interactive environment for numerical computation, visualization and programming. MATLAB is developed by [MathWorks](http://www.mathworks.com). It allows matrix manipulations; plotting of functions and data; implementation of algorithms; creation of user interfaces; interfacing with programs written in other languages, including C, C++, Java, and FORTRAN; analyzing data; developing algorithms; and creating models and applications. It has numerous built-in commands and math functions that help you in mathematical calculations, generating plots, and performing numerical methods.
 
 ## 1. Understanding the MATLAB Environment
-![matlabfigure](_posts/intro/tutorial/imgs/matlab_figure.png) {: width="550px" }
-<img src="./_images/matlab_figure.png" width="550px" > </img>
+![matlabfigure](/assets/images/matlab_figure.png) {: width="550px" }
+
+<img src="/assets/images/matlab_figure.png" width="550px" > </img>
 
 - **Current Folder** allows you to access the project folders and files.
 
