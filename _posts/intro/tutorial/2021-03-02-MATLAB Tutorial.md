@@ -5,7 +5,7 @@ categories: Intro
 tags: intro tutorial
 # 목차
 toc: true  
-toc_sticky: true 
+toc_sticky: true
 ---
 
 # MATLAB Tutorial
@@ -15,7 +15,7 @@ toc_sticky: true
 MATLAB (matrix laboratory) is a fourth-generation high-level programming language and an interactive environment for numerical computation, visualization and programming. MATLAB is developed by [MathWorks](http://www.mathworks.com). It allows matrix manipulations; plotting of functions and data; implementation of algorithms; creation of user interfaces; interfacing with programs written in other languages, including C, C++, Java, and FORTRAN; analyzing data; developing algorithms; and creating models and applications. It has numerous built-in commands and math functions that help you in mathematical calculations, generating plots, and performing numerical methods.
 
 ## 1. Understanding the MATLAB Environment
-<img src='{{ "/images/intro/tutorial/matlab_figure.png" | relative_url }}' width="550px">
+![img]({{site.baseurl}}/images/intro/tutorial/matlab_figure.png){: width="600px"}
 
 - **Current Folder** allows you to access the project folders and files.
 
@@ -337,7 +337,7 @@ confirm it. Click `[YES]`.
 
 Alternatively, if you are using the IDE, choose `[New Script]`.
 
-<img src='{{ "/images/intro/tutorial/gene_mfile.png" | relative_url }}' width="550px">
+![generate]({{site.baseurl}}/images/intro/tutorial/gene_mfile.png){: width="600"}
 
 Type the following code in the editor:
 
@@ -351,12 +351,14 @@ f= exp(-c)
 
 After creating and saving the file, you can run it in two ways:
 
-- Clicking the `[Run]` button on the editor window\
-<img src='{{ "/images/intro/tutorial/test1_run.png"  | relative_url }}' width="550px">
+- Clicking the `[Run]` button on the editor window
+    
+    ![run]({{site.baseurl}}/images/intro/tutorial/test1_run.png){: width="550"}
 
 - Just typing the file name (without extension) in the command
-    prompt:\
-    <img src='{{ "/images/intro/tutorial/prompt_execute.png" | relative_url }}' width="550px">
+    prompt:
+    
+    ![execute]({{site.baseurl}}/images/intro/tutorial/prompt_execute.png){: width="550"}
 
 When the above code is compiled and executed, it produces the
 folliwing result:
