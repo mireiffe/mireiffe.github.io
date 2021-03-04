@@ -2,7 +2,7 @@
 date: 2021-03-02
 title: 설치 가이드 (한글)
 categories: Intro
-tags: intro, installation guide
+tags: intro install_guide
 # 목차
 toc: true  
 toc_sticky: true 

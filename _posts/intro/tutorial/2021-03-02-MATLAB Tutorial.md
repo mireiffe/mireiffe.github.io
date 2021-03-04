@@ -2,7 +2,7 @@
 date: 2021-03-02
 title: "MATLAB 연습 / MATLAB Tutorial"
 categories: Intro
-tags: Intro, tutorial
+tags: Intro tutorial
 # 목차
 toc: true  
 toc_sticky: true 
@@ -15,7 +15,8 @@ toc_sticky: true
 MATLAB (matrix laboratory) is a fourth-generation high-level programming language and an interactive environment for numerical computation, visualization and programming. MATLAB is developed by [MathWorks](http://www.mathworks.com). It allows matrix manipulations; plotting of functions and data; implementation of algorithms; creation of user interfaces; interfacing with programs written in other languages, including C, C++, Java, and FORTRAN; analyzing data; developing algorithms; and creating models and applications. It has numerous built-in commands and math functions that help you in mathematical calculations, generating plots, and performing numerical methods.
 
 ## 1. Understanding the MATLAB Environment
-<img src="imgs/MATLAB_figure.png" width="550px" > </img>
+![matlabfigure](_posts/intro/tutorial/imgs/matlab_figure.png) {: width="550px" }
+<img src="./_images/matlab_figure.png" width="550px" > </img>
 
 - **Current Folder** allows you to access the project folders and files.
 

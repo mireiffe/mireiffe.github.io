@@ -1,8 +1,8 @@
 ---
 date: 2021-03-03
-title: Week1
+title: README
 categories: Week1
-tags: week1, readme
+tags: week1 readme
 # 목차
 toc: true  
 toc_sticky: true 

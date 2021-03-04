@@ -2,7 +2,7 @@
 date: 2021-03-02
 title: Installation Guide (English)
 categories: Intro
-tags: intro, installation guide
+tags: intro install_guide
 # 목차
 toc: true  
 toc_sticky: true 
@@ -16,7 +16,7 @@ This document describes how to install MATLAB using 'Total Academic Headcount (T
 ## Create a Mathworks Account
 1. Visit the [Mathworks website](https://www.mathworks.com) and go to the sign up page: [Sign in] - [[Create One!](https://kr.mathworks.com/mwaccount/register)].
 
-    <img src="imgs/signin_eng.png" width="450"></img>
+    <img src="./imgs/signin_eng.png" width="450"></img>
 
 2.  You should use your **KAIST email address**.
 
