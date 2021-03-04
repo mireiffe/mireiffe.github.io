@@ -95,7 +95,7 @@ analytics:
 # Site Author
 author:
   name             : "MATLAB TA"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/images/baboon.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Seongeun Kim"
   location         : "KAIST, Daejeon"
   email            : "mireiffe@kaist.ac.kr"
