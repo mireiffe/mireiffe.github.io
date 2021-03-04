@@ -12,12 +12,13 @@ toc_sticky: true
 
 ## 연습문제 || Exercises
 
-범위 / Coverage : [2.1 - 3.1](exercises/section2.md)
+범위 / Coverage : [2.1 - 3.1]({{site.baseurl}}/week1/section2)
 
 ## 과제 0 || Assignment 0
+
 Assignment | 0
 ---|---
-Doc | [Link](assignment0/assign0.md)
+Doc | [Link]({{site.baseurl}}/week1/assign0)
 Files | [Download](<https://klms.kaist.ac.kr/mod/assign/view.php?id=504290>)
 Score | 2
 Due date | Mar 11, 11:59 PM

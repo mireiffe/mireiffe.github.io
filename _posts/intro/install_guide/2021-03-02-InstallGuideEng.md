@@ -16,69 +16,70 @@ This document describes how to install MATLAB using 'Total Academic Headcount (T
 ## Create a Mathworks Account
 1. Visit the [Mathworks website](https://www.mathworks.com) and go to the sign up page: [Sign in] - [[Create One!](https://kr.mathworks.com/mwaccount/register)].
 
-    <img src="./imgs/signin_eng.png" width="450"></img>
+    ![signin]({{site.baseurl}}/images/intro/install/signin_eng.png){: width="550"}
 
 2.  You should use your **KAIST email address**.
 
-    <img src="imgs/signup_eng.png" width="450"></img>
+    ![signup]({{site.baseurl}}/images/intro/install/signup_eng.png){: width="550"}
 
 3.  To complete creation, verify your email address by
     checking the email inbox.\
     (You can leave the license field empty.)
 
-    <img src="imgs/verify_eng.png" width="450"></img>
+    ![verify]({{site.baseurl}}/images/intro/install/verify_eng.png){: width="550"}
 
 ## Register the KAIST TAH license
 1.  Sign in the mathworks website using your created account and click [My Account](https://kr.mathworks.com/mwaccount/) in upper right corner
 
-    <img src="imgs/myacc_eng.png" width="450"></img>
+    ![myacc]({{site.baseurl}}/images/intro/install/myacc_eng.png){: width="550"}
 
 2.  Click on the [Link] to add the KAIST TAH license
     to your account.
 
-    <img src="imgs/link_eng.png" width="450"></img>
+    ![link]({{site.baseurl}}/images/intro/install/link_eng.png){: width="550"}
 
 3.  Enter the activation key for the KAIST TAH license.\
     (The activation key can be obtained from [[KFTP](https://kftp.kaist.ac.kr)] - [Serial] - [ETC S/W].)
 
-    <img src="imgs/link2_eng.png" width="450"></img>
+    ![link2]({{site.baseurl}}/images/intro/install/link2_eng.png){: width="550"}
 
 4.  You have successfully associated your account with the KAIST TAH license.
 
-    <img src="imgs/success.png" width="450"></img>
+    ![success]({{site.baseurl}}/images/intro/install/success.png){: width="550"}
 
 ## Download
 1. Go to the [My Account](https://kr.mathworks.com/mwaccount/) in the [Mathworks website](https://www.mathworks.com).
 
 2.  Click **Download Products**.
 
-    <img src="imgs/down_eng.png" width="450"></img>
+    ![down]({{site.baseurl}}/images/intro/install/down_eng.png){: width="550"}
 
 3.  Click the R2020b button.
 
-    <img src="imgs/down2_eng.png" width="450"></img>
+    ![down2]({{site.baseurl}}/images/intro/install/down2_eng.png){: width="550"}
 
 4. Choose your computer platform then download will be started.
 
-    <img src="imgs/down3_eng.png" width="450"></img>
+    ![down3]({{site.baseurl}}/images/intro/install/down3_eng.png){: width="550"}
 
 ## Installation
 1.  Run the MATLAB installer. Enter your mathworks account and password.\
     (You should enter the KAIST email address.)
 
-    <img src="imgs/install1.png" width="450"></img>
+    ![install1]({{site.baseurl}}/images/intro/install/install1.png){: width="550"}
 
 2. Select license and move on.
 
-    <img src="imgs/install2.png" width="450"></img>
+    ![install2]({{site.baseurl}}/images/intro/install/install2.png){: width="550"}
 
 3.  Select the products.
     (The only product you need for MAS109 is 'MATLAB'.)
 
-    <img src="imgs/install3.png" width="450"></img>
+    ![install3]({{site.baseurl}}/images/intro/install/install3.png){: width="550"}
 
 5. Confirm the list of products what you select. This is the final
     confirmation before installation process which will
     take a time.
 
-    <img src="imgs/install4.png" width="450"></img>
+    ![install4]({{site.baseurl}}/images/intro/install/install4.png){: width="550"}
+

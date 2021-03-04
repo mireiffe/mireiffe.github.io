@@ -31,7 +31,7 @@ MATLAB environment behaves like a super-complex calculator. You can enter comman
 
 Type a valid expression, for example,
 
-```Matlab
+```matlab
 >> 5 + 5
 ```
 
@@ -47,7 +47,7 @@ ans =
 
 Let us take up more examples:
 
-```Matlab
+```matlab
 >> 4^2                  % 4 raised to the power of 2
 ```
 
@@ -63,7 +63,7 @@ ans =
 
 Another example,
 
-```Matlab
+```matlab
 >> sin ( pi / 2 )       % sine of angle 90 degree
 ```
 
@@ -79,7 +79,7 @@ ans =
 
 Another example,
 
-```Matlab
+```matlab
 >> 7 / 0                % divide by zero
 ```
 
@@ -97,7 +97,7 @@ ans =
 
 For example,
 
-```Matlab
+```matlab
 >> x = 3 ;
 >> y = x + 5
 ```
@@ -110,7 +110,7 @@ y =
 `The percent symbol (%)` is used for indicating a comment line.
 For example,
 
-```Matlab
+```matlab
 >> x = 9         % assign the value 9 to x
 ```
 MATLAB will execute the above statement and return the following
@@ -127,14 +127,14 @@ x =
 In MATLAB environment, every variable is an array or a matrix.
 You can assign a variable in a simple way. For example,
 
-```Matlab
+```matlab
 >> x = 5         % defining x and initializing it with a value
 ```
 
 It creates a 1-by-1 matrix named x and stores the value 9 in its
 element. Let us check another example,
 
-```Matlab
+```matlab
 >> x = sqrt ( 25 )
 ```
 
@@ -154,7 +154,7 @@ can be used later.
 
 For example,
 
-```Matlab
+```matlab
 >> sqrt( 78 )
 ```
 
@@ -168,7 +168,7 @@ ans =
 
 You can have **multiple assignments** on the same line. For example
 
-```Matlab
+```matlab
 >> x = 2;
 >> y = 77;
 >> z = x * y
@@ -184,7 +184,7 @@ z =
 
 If you forget the variables, then type `who` in the command prompt
 
-```Matlab
+```matlab
 >> who
 ```
 
@@ -193,7 +193,7 @@ Then MATLAB will show your variable names.
 If you want to display a little more about the varibles, type
 `whos` in the command prompt:
 
-```Matlab
+```matlab
 >> whos
 ```
 
@@ -204,7 +204,7 @@ whether they are complex variables or not.
 The `clear` command deletes all (or the specified) variable(s)
 from the memory.
 
-```Matlab
+```matlab
 >> clear x              % it will delete x, won't display anything
 >> clear                % it will delete all variables in the workspace
 ```
@@ -215,7 +215,7 @@ precision, you need to use the `format` command.
 
 Check by yourself:
 
-```Matlab
+```matlab
 >> format long; x=pi
 >> format short; x=pi
 >> format bank; x=pi
@@ -231,7 +231,7 @@ vectors.
 square brackets, using space or comma to delimit the elements. For
 example,
 
-```Matlab
+```matlab
 >> r = [3  5  7  9  11]
 ```
 
@@ -245,7 +245,7 @@ r =
 
 Another example,
 
-```Matlab
+```matlab
 >> v = [ 7  9  11  13  15 ];
 >> w = [ 1,  3,  4,  5,  0 ];
 >> z = v + w
@@ -263,7 +263,7 @@ z =
 square brackets, using semicolon (;) to delimit the elements. For
 example,
 
-```Matlab
+```matlab
 >> c = [3;  5;  7;  9;  11]
 ```
 
@@ -286,7 +286,7 @@ space or comma separated elements, and the end of a row is
 demarcated by a semicolon. For example, let us create a 3-by-3
 matrix as:
 
-```Matlab
+```matlab
 >> M = [ 1   2   3 ; 4   5   6 ; 7   8   9 ]
 ```
 
@@ -326,7 +326,7 @@ To create scripts files, you open the MATLAB editor in two ways:
 If you are using the command prompt, type `edit` in the command
 prompt. Type the follwing code in the editor:
 
-```Matlab
+```matlab
 >> mkdir myMATLAB           % create directory myMATLAB in currnet directory
 >> chdir myMATLAB           % changing the current directory to my MATLAB
 >> edit test1.m             % creating an m-file named test1.m
@@ -341,7 +341,7 @@ Alternatively, if you are using the IDE, choose `[New Script]`.
 
 Type the following code in the editor:
 
-```Matlab
+```matlab
 a = 10;  b=7;
 c = a + b
 d = c + sin(b)
@@ -387,7 +387,7 @@ f =
 ## 5. Help
 In MATLAB, you can find a description of functions by typing `help` in the command prompt:
 
-```Matlab
+```matlab
 >> help;
 >> help rand;
 ```
