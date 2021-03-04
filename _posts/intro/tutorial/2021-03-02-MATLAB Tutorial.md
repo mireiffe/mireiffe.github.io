@@ -2,7 +2,7 @@
 date: 2021-03-02
 title: "MATLAB 연습 / MATLAB Tutorial"
 categories: Intro
-tags: Intro tutorial
+tags: intro tutorial
 # 목차
 toc: true  
 toc_sticky: true 
@@ -15,9 +15,7 @@ toc_sticky: true
 MATLAB (matrix laboratory) is a fourth-generation high-level programming language and an interactive environment for numerical computation, visualization and programming. MATLAB is developed by [MathWorks](http://www.mathworks.com). It allows matrix manipulations; plotting of functions and data; implementation of algorithms; creation of user interfaces; interfacing with programs written in other languages, including C, C++, Java, and FORTRAN; analyzing data; developing algorithms; and creating models and applications. It has numerous built-in commands and math functions that help you in mathematical calculations, generating plots, and performing numerical methods.
 
 ## 1. Understanding the MATLAB Environment
-![matlabfigure](/assets/images/matlab_figure.png) {: width="550px" }
-
-<img src="/assets/images/matlab_figure.png" width="550px" > </img>
+<img src='{{ "/images/intro/tutorial/matlab_figure.png" | relative_url }}' width="550px">
 
 - **Current Folder** allows you to access the project folders and files.
 
@@ -337,8 +335,9 @@ prompt. Type the follwing code in the editor:
 If you are creating a file for first time, MATLAB prompts you to
 confirm it. Click `[YES]`.
 
-Alternatively, if you are using the IDE, choose `[New Script]`.\
-<img src="imgs/gene_mfile.png" width="550px"></img>
+Alternatively, if you are using the IDE, choose `[New Script]`.
+
+<img src='{{ "/images/intro/tutorial/gene_mfile.png" | relative_url }}' width="550px">
 
 Type the following code in the editor:
 
@@ -353,11 +352,11 @@ f= exp(-c)
 After creating and saving the file, you can run it in two ways:
 
 - Clicking the `[Run]` button on the editor window\
-<img src="imgs/test1_run.png" width="550px"></img>
+<img src='{{ "/images/intro/tutorial/test1_run.png"  | relative_url }}' width="550px">
 
 - Just typing the file name (without extension) in the command
     prompt:\
-    <img src="imgs/prompt_execute.png" width="550px"></img>
+    <img src='{{ "/images/intro/tutorial/prompt_execute.png" | relative_url }}' width="550px">
 
 When the above code is compiled and executed, it produces the
 folliwing result:
