@@ -15,7 +15,7 @@ This document describes how to install MATLAB using 'Total Academic Headcount (T
 
 ## Contents
 - [Introduction](#Introduction)
-- [Create a Mathworks Account](#Create-a-Mathworks-Account)
+- [Create a Mathworks Account](#create-a-mathworks-account)
 - [Register the KAIST TAH license](#Register-the-KAIST-TAH-license)
 - [Download](#Download)
 - [Installation](#Installation)
