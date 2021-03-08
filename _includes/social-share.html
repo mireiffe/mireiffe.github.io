@@ -21,11 +21,11 @@
       objectType: 'feed',
       content: {
         title: '{{ post.title }}',
-        description: '{{ post.content|truncatewords:15 }}',
-        imageUrl: '{{ post.imageUrl }}',
+        description: '{{ post.content }}',
+        imageUrl: 'https://avatars.githubusercontent.com/u/47289460?s=460&u=4ee987d885143b49eb9e6b6da664473cc7ef1f68&v=4',
         link: {
-          mobileWebUrl: '{{ request.mobileWebUrl }}',
-          webUrl: '{{ request.webUrl }}'
+          mobileWebUrl: '{{ post.mobileWebUrl }}',
+          webUrl: '{{ post.webUrl }}'
         },
       },
       social: {
@@ -37,13 +37,7 @@
         {
           title: '웹으로 이동',
           link: {
-            mobileWebUrl: '{{ request.mobileWebUrl }}',
-          },
-        },
-        {
-          title: '앱으로 이동',
-          link: {
-            mobileWebUrl: '{{ request.mobileWebUrl }}',
+            mobileWebUrl: '{{ post.mobileWebUrl }}',
           },
         },
       ]
