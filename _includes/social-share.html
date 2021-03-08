@@ -20,11 +20,11 @@
     Kakao.Link.sendDefault({
       objectType: 'feed',
       content: {
-        title: '{{ single.title }}',
-        description: '{{ post.content }}',
+        title: '{{ page.title }}',
+        description: '{{ page.content }}',
         imageUrl: 'https://avatars.githubusercontent.com/u/47289460?s=460&u=4ee987d885143b49eb9e6b6da664473cc7ef1f68&v=4',
         link: {
-          mobileWebUrl: '{{ post.mobileWebUrl }}',
+          mobileWebUrl: '{{ page.mobileWebUrl }}',
           webUrl: '{{ post.webUrl }}'
         },
       },
