@@ -25,14 +25,14 @@
         imageUrl: 'https://avatars.githubusercontent.com/u/47289460?s=460&u=4ee987d885143b49eb9e6b6da664473cc7ef1f68&v=4',
         link: {
           mobileWebUrl: '{{ page.mobileWebUrl | escape }}',
-          webUrl: '{{ post.webUrl | escape }}'
+          webUrl: '{{ page.webUrl | escape }}'
         },
       },
       buttons: [
         {
           title: 'Link',
           link: {
-            mobileWebUrl: '{{ post.mobileWebUrl }}',
+            mobileWebUrl: '{{ page.webUrl | escape }}',
           },
         },
       ]
