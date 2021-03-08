@@ -20,7 +20,7 @@
     Kakao.Link.sendDefault({
       objectType: 'feed',
       content: {
-        title: '{{ post.title }}',
+        title: "{{ site.data.ui-text[site.locale].share_on_label | default: 'Share on' }}",
         description: '{{ post.content }}',
         imageUrl: 'https://avatars.githubusercontent.com/u/47289460?s=460&u=4ee987d885143b49eb9e6b6da664473cc7ef1f68&v=4',
         link: {
@@ -28,14 +28,9 @@
           webUrl: '{{ post.webUrl }}'
         },
       },
-      social: {
-        likeCount: 10,
-        commentCount: 20,
-        sharedCount: 30,
-      },
       buttons: [
         {
-          title: '웹으로 이동',
+          title: 'Link',
           link: {
             mobileWebUrl: '{{ post.mobileWebUrl }}',
           },
