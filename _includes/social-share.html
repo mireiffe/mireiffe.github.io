@@ -7,5 +7,43 @@
 
   <a href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | absolute_url | url_encode }}" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="{{ site.data.ui-text[site.locale].share_on_label | default: 'Share on' }} Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
 
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ page.url | absolute_url | url_encode }}" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="{{ site.data.ui-text[site.locale].share_on_label | default: 'Share on' }} LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+  <a href="javascript:sendLinkKakao()" id="kakao-link-btn" title="카카오톡으로 공유"><img src="{{site.baseurl}}/images/kakao.png" width=27 alt="Kakaotalk"></a>
+
+  <!-- <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ page.url | absolute_url | url_encode }}" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="{{ site.data.ui-text[site.locale].share_on_label | default: 'Share on' }} LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a> -->
 </section>
+
+<script>
+  Kakao.init("184e92f2af987513373ea23a597a789e");
+  Kakao.Link.sendDefault({
+    objectType: 'feed',
+    content: {
+      title: '디저트 사진',
+      description: '아메리카노, 빵, 케익',
+      imageUrl:
+        'http://mud-kage.kakao.co.kr/dn/NTmhS/btqfEUdFAUf/FjKzkZsnoeE4o19klTOVI1/openlink_640x640s.jpg',
+      link: {
+        mobileWebUrl: 'https://developers.kakao.com',
+        androidExecParams: 'test',
+      },
+    },
+    social: {
+      likeCount: 10,
+      commentCount: 20,
+      sharedCount: 30,
+    },
+    buttons: [
+      {
+        title: '웹으로 이동',
+        link: {
+          mobileWebUrl: 'https://developers.kakao.com',
+        },
+      },
+      {
+        title: '앱으로 이동',
+        link: {
+          mobileWebUrl: 'https://developers.kakao.com',
+        },
+      },
+    ]
+  });
+</script>
