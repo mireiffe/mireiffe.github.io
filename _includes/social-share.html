@@ -24,15 +24,15 @@
         description: '{{ post.content | escape }}',
         imageUrl: 'https://avatars.githubusercontent.com/u/47289460?s=460&u=4ee987d885143b49eb9e6b6da664473cc7ef1f68&v=4',
         link: {
-          mobileWebUrl: '{{ page.mobileWebUrl | escape }}',
-          webUrl: '{{ page.webUrl | escape }}'
+          mobileWebUrl: '{{ page.url }}',
+          webUrl: '{{ page.url }}'
         },
       },
       buttons: [
         {
           title: 'Link',
           link: {
-            mobileWebUrl: '{{ page.webUrl | escape }}',
+            mobileWebUrl: '{{ page.url }}',
           },
         },
       ]
