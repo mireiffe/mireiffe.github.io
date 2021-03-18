@@ -14,7 +14,13 @@ layout: archive
 <ul class="taxonomy__index">
   {% for i in (1..tags_max) reversed %}
     {% for tag in site.tags %}
-      {% if tag[1].size == i %}
+      {% assign indic_tag = 0 %}
+      {% for post in tag.last %}
+        {% unless post.hidden %}
+          {% assign indic_tag = 1 %}
+        {% endunless %}
+      {% endfor %}
+      {% if tag[1].size == i and indic_tag == 1 %}
         <li>
           <a href="#{{ tag[0] | slugify }}">
             <strong>{{ tag[0] }}</strong> <span class="taxonomy__count">{{ i }}</span>
@@ -28,12 +34,20 @@ layout: archive
 {% assign entries_layout = page.entries_layout | default: 'list' %}
 {% for i in (1..tags_max) reversed %}
   {% for tag in site.tags %}
-    {% if tag[1].size == i %}
+    {% assign indic_tag = 0 %}
+    {% for post in tag.last %}
+      {% unless post.hidden %}
+        {% assign indic_tag = 1 %}
+      {% endunless %}
+    {% endfor %}
+    {% if tag[1].size == i and indic_tag == 1 %}
       <section id="{{ tag[0] | slugify | downcase }}" class="taxonomy__section">
         <h2 class="archive__subtitle">{{ tag[0] }}</h2>
         <div class="entries-{{ entries_layout }}">
           {% for post in tag.last %}
-            {% include archive-single.html type=entries_layout %}
+            {% unless post.hidden %}
+              {% include archive-single.html type=entries_layout %}
+            {% endunless %}
           {% endfor %}
         </div>
         <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
