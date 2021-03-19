@@ -283,7 +283,7 @@ defaults:
       show_date: true
       comments: true
       share: true
-      related: true
+      related: false
 
 kramdown:
   math_engine: mathjax
