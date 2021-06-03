@@ -133,7 +133,7 @@ footer:
       url: "mailto:mireiffe@kaist.ac.kr"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: https://github.com/imsek_
+      url: https://github.com/mireiffe
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
