@@ -96,8 +96,7 @@ analytics:
 author:
   name             : "Seongeun Kim"
   avatar           : "https://avatars.githubusercontent.com/u/47289460?s=460&u=4ee987d885143b49eb9e6b6da664473cc7ef1f68&v=4" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  # bio              : "An explorer"
-  bio              : ""
+  bio              : "An explorer"
   location         : "KAIST, Daejeon, Korea"
   email            : "mireiffe@kaist.ac.kr"
   links:
